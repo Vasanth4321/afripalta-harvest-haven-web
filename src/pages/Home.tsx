@@ -6,7 +6,7 @@ import SectionHeader from "@/components/ui/section-header";
 import ProductCard from "@/components/ui/product-card";
 import FeatureCard from "@/components/ui/feature-card";
 import BlogCard from "@/components/ui/blog-card";
-import { Leaf, Droplet, Sprout, SunMedium, Fruit, CheckCircle2, Users } from "lucide-react";
+import { Leaf, Droplet, Sprout, Sun, Grape, CheckCircle2, Users } from "lucide-react";
 
 const Home = () => {
   return (

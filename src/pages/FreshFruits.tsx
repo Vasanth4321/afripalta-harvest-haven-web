@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import HeroSection from "@/components/ui/hero-section";
 import SectionHeader from "@/components/ui/section-header";
-import { Fruit, Leaf, SunMedium, ShieldCheck, Clock, Truck } from "lucide-react";
+import { Leaf, Grape, Sun, ShieldCheck, Clock, Truck } from "lucide-react";
 
 const FreshFruits = () => {
   return (
@@ -72,7 +71,7 @@ const FreshFruits = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-afri-green-pale flex items-center justify-center mr-3">
-                      <Fruit className="h-5 w-5 text-afri-green" />
+                      <Grape className="h-5 w-5 text-afri-green" />
                     </div>
                     <span className="text-sm">Weight: 140-200g</span>
                   </div>
@@ -84,7 +83,7 @@ const FreshFruits = () => {
                   </div>
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-afri-green-pale flex items-center justify-center mr-3">
-                      <SunMedium className="h-5 w-5 text-afri-green" />
+                      <Sun className="h-5 w-5 text-afri-green" />
                     </div>
                     <span className="text-sm">Season: Year-round</span>
                   </div>
@@ -114,7 +113,7 @@ const FreshFruits = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-afri-green-pale flex items-center justify-center mr-3">
-                      <Fruit className="h-5 w-5 text-afri-green" />
+                      <Grape className="h-5 w-5 text-afri-green" />
                     </div>
                     <span className="text-sm">Weight: 500g-1.5kg</span>
                   </div>
@@ -126,7 +125,7 @@ const FreshFruits = () => {
                   </div>
                   <div className="flex items-center">
                     <div className="w-10 h-10 rounded-full bg-afri-green-pale flex items-center justify-center mr-3">
-                      <SunMedium className="h-5 w-5 text-afri-green" />
+                      <Sun className="h-5 w-5 text-afri-green" />
                     </div>
                     <span className="text-sm">Season: Seasonal</span>
                   </div>
