@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import HeroSection from "@/components/ui/hero-section";
 import SectionHeader from "@/components/ui/section-header";
-import { CheckCircle2, Heart, ShieldCheck, Droplet, Leaf, Sprout } from "lucide-react";
+import { CheckCircle2, Heart, ShieldCheck, Droplet, Leaf, Sprout, Sun } from "lucide-react";
 
 const AvocadoOil = () => {
   return (
@@ -159,7 +159,7 @@ const AvocadoOil = () => {
                 
                 <div className="flex items-start">
                   <div className="mr-4 text-afri-brown">
-                    <SunMedium className="h-8 w-8" />
+                    <Sun className="h-8 w-8" />
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-2">Solar Powered</h3>

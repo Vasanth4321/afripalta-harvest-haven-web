@@ -102,7 +102,7 @@ const Home = () => {
               description="We use only organic fertilizers, ensuring our products are free from harmful chemicals."
             />
             <FeatureCard
-              icon={<SunMedium className="w-10 h-10" />}
+              icon={<Sun className="w-10 h-10" />}
               title="Green Energy"
               description="Our facilities are powered by solar energy, reducing our carbon footprint."
             />
